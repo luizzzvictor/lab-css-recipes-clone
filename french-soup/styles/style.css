@@ -8,29 +8,31 @@ html {
   font-size: 18px
 }
 
-
-body {
-  font-family: "Open Sans";
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 200px;
 }
 
 header {
   background-image: url("../images/soup.jpg");
-  background-position: right right;
+  background-position: center;
   background-size: cover;
-  height: 400px;
+  background-repeat: no-repeat;
+  height: 500px;
   color: white;
   font-family: "Open Sans";
 }
 
-h1 {
-  text-align: center;
-  font-size: 50px;
-  padding: 150px;
+div {
+  display: flex;
+  justify-content: center;
 }
 
 img {
   width: 25%;
 }
+
 
 div {
   display: flex;
